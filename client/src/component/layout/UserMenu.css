@@ -1,0 +1,70 @@
+/* Admin Menu Container */
+.admin-menu-container {
+    max-width: 300px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Admin Panel Title */
+.admin-panel-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* List Group Container */
+.dashboard-menu {
+    padding: 0;
+}
+
+/* Menu Item Styling */
+.list-group-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    color: #555;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+
+/* Menu Item Hover Effect */
+.list-group-item:hover {
+    background-color: #007bff;
+    color: white;
+    transform: translateX(5px); /* Slight right shift on hover */
+}
+
+/* Menu Icons */
+.menu-icon {
+    font-size: 1.3rem;
+    margin-right: 12px;
+}
+
+/* Active Link Styling */
+.list-group-item.active {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Spacing and Borders */
+.list-group-item-section {
+    margin-top: 10px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Styling for active state */
+.list-group-item.active {
+    background-color: #28a745;
+    color: white;
+}

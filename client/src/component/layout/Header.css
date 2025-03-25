@@ -1,0 +1,75 @@
+/* Custom Navbar Background */
+.custom-navbar {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: white !important;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    color: white !important;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    color: #ffc107 !important;
+  }
+  
+  .dropdown-menu {
+    background-color: #343a40;
+  }
+  
+  .dropdown-item {
+    color: white !important;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #ccb2b8;
+  }
+  
+  /* Navbar Toggler */
+  .navbar-toggler {
+    border-color: white;
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+  
+  /* Logo Styling */
+ /* Logo Styling */
+.logo {
+    width: 120px; /* Adjust the width as needed */
+    height: 50px; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image fits without distortion */
+    margin-right: 10px; /* Add spacing from text */
+    mix-blend-mode: exclusion;
+  }
+  
+  
+  /* Badge Styling */
+  .ant-badge .ant-badge-count {
+    background: #ffc107 !important;
+    color: black !important;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-link {
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    .logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
